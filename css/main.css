@@ -1,0 +1,209 @@
+.bold {
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5vw;
+}
+
+* body .container {
+  overflow: hidden;
+  max-width: 414px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+* body .container .title-area {
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 10px 0px;
+}
+
+* body .container .links-area {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+* body .container .links-area .top-line {
+  position: absolute;
+  opacity: 0.3;
+  width: 105%;
+}
+
+* body .container .links-area .bottom-line {
+  position: absolute;
+  opacity: 0.3;
+  width: 105%;
+  bottom: 0;
+}
+
+* body .container .links-area-subtitles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  font-size: 11px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+* body .container .links-area__item {
+  z-index: 900;
+  width: 18%;
+  text-align: center;
+  margin-left: 2%;
+}
+
+* body .container .links-area__item:last-child {
+  margin-left: 0;
+}
+
+* body .container .links-area__item .icon {
+  width: 100%;
+}
+
+* body .container .links-area__item .website-icon-container {
+  position: relative;
+}
+
+* body .container .links-area__item .icon-website {
+  width: 100%;
+}
+
+* body .container .links-area__item .live {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+* body .container .post-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+* body .container .post-header .avatar-name-city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .container .post-header .avatar-name-city .avatar {
+  margin-right: 10px;
+}
+
+* body .container .post-header .avatar-name-city .name-city-name {
+  font-weight: 700;
+}
+
+* body .container .post-header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .container .post-header .menu .dot {
+  margin-right: 0.2rem;
+  border-radius: 10rem;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #4F4F4F;
+}
+
+* body .container .post-header .menu .dot:last-child {
+  margin-right: 0;
+}
+
+* body .container .my-photo {
+  position: relative;
+  left: -10px;
+  width: 414px;
+  height: 375px;
+  margin-bottom: 15px;
+  background-image: url(/img/my-photo.jpg);
+}
+
+* body .container .social-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* body .container .social-panel .social-panel-left-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body .container .social-panel .social-panel-left-block .like {
+  height: 27px;
+}
+
+* body .container .social-panel .social-panel-left-block .comment {
+  height: 27px;
+}
+
+* body .container .social-panel .social-panel-left-block .repost {
+  height: 27px;
+}
+
+* body .container .social-panel .bookmark {
+  height: 27px;
+}
+
+* body .container .bottom-panel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+* body .container .bottom-panel hr {
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  margin-bottom: 15px;
+}
+
+* body .container .bottom-panel .top-line {
+  position: absolute;
+  opacity: 0.3;
+  width: 300%;
+}
+/*# sourceMappingURL=main.css.map */
